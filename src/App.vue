@@ -1,6 +1,6 @@
 <template>
   <div id="app" >
-    <img alt="Vue logo" src="./assets/r.png" style="width: 250px;">
+    <img alt="Vue logo" src="./assets/r.png" style="width: 250px; ">
     <h1>{{ text1 }}</h1>
     <h2>THE {{ input[0] }}</h2>
     <h2>THE {{ input[1] + " " + input[2]}}</h2>
