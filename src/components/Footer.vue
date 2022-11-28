@@ -6,7 +6,7 @@
             </div>
             <div class="row py-5 justify-content" >
                 <div class="col-3">
-                    <b>Overview</b>
+                    <b >Overview</b>
                     <p ><a href="/BotsTrap/shippingForm.html" style="text-decoration: none; color :black; ">Shipping </a> </p>
                     <p>Refund</p>
                     <p>Promotion</p>

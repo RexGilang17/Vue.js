@@ -2,22 +2,22 @@
     <div class="container container-fluid px-5 mt-5">
         <div class="row ">
 <div class="col-2 d-flex flex-column justify-content-between">
-    <img class="rounded" src="../assets/img/side-1.png" alt="" style="width: 50%;">
-    <img class="rounded" src="../assets/img/side-2.png" alt="" style="width: 50%;">
-    <img class="rounded" src="../assets/img/side-3.png" alt="" style="width: 50%;">
-    <img class="rounded" src="../assets/img/side-2.png" alt="" style="width: 50%;">
-    <img class="rounded" src="../assets/img/side-1.png" alt="" style="width: 50%;">
+    <img id="view" src="../assets/img/side-1.png" alt="" style="width: 50%;">
+    <img id="view" src="../assets/img/side-2.png" alt="" style="width: 50%;">
+    <img id="view" src="../assets/img/side-3.png" alt="" style="width: 50%;">
+    <img id="view" src="../assets/img/side-2.png" alt="" style="width: 50%;">
+    <img id="view" src="../assets/img/side-1.png" alt="" style="width: 50%;">
 </div>
 <!-- Gamabar Utama -->
 <div class="col-6">
-    <img  class="rounded" style="width: 500px; height: auto;" id="gambarUtama" src="../assets/img/chair.png" alt="">
+    <img  style="width: 500px; height: auto;" id="rounded" src="../assets/img/chair.png" alt="">
 </div>
 <!-- End Gambar utama -->
 
 <div class="col-4">
     <H2 id="nameKursi">Chair Thatty</H2>
     <p id="price">IDR.12.000.000</p>
-    <a href="/BotsTrap/shippingForm.html"><button type="button" class="btn rounded"  style="background-color: pink;"><b> <img src="../assets/img/cart-icon.png" alt=""> Add To Chart</b></button></a>
+    <a href="/BotsTrap/shippingForm.html"><button type="button" id="rounded"  style="background-color: pink;"><b> <img src="../assets/img/cart-icon.png" alt=""> Add To Chart</b></button></a>
     <br> <br>
     <hr>
     <br><br>
@@ -44,6 +44,14 @@ export default {
     name: 'GalleyView',
 }
 </script>
-<style >
-  
+<style scoped>
+#rounded{
+    border-radius: 50px;
+}
+#view{
+    border-radius: 15px;
+}
+
+
+
 </style>
