@@ -20,6 +20,7 @@ export default {
 <style scoped>
 #rounded{
     border-radius: 25px;
+    background-color: aqua;
 }
 
 
