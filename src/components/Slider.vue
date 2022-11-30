@@ -7,23 +7,28 @@
             :key="index"
             :card-title="item"
             :card-price="arrCardPrice[index]"
-            :card-image="arrCardImage[index]"></Card>
+            :card-image="arrCardImage[index]"
+            @changePictures="changePictureFunc">></Card>
         </div>
     </div>
 </template>
 
 <script>
 import Card from './Card.vue';
-
 export default {
     name : 'SliderComponent',
     components : {
         Card
     },
+    methods : {
+        changePictureFunc : function(cardImage){
+            this.$emit('changePictures', cardImage)
+        }
+    },
     data() {
         return{
             arrCardTitle : ["Cangkir Mauttie", "Saman Kakka", "Lino Dino", "Syail Ammeno"],
-            arrCardPrice : ["89.300.000", "14.500.000", "IDR 22.000.000", "IDR 12.000.000"],
+            arrCardPrice : ["89.300.000", "14.500.000", "22.000.000", "12.000.000"],
             arrCardImage : ["chair-4", "chair-3", "chair-2", "chair-1"]
         }
     }

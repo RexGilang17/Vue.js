@@ -10,14 +10,16 @@
 </div>
 <!-- Gamabar Utama -->
 <div class="col-6">
-    <img  style="width: 500px; height: auto;" id="rounded" src="../assets/img/chair.png" alt="">
+    <img :src="require('@/assets/img/' + imageLink + '.png')" alt="kursi" class="img" style="width: 500px; height: auto;" id="rounded"  >
 </div>
 <!-- End Gambar utama -->
 
 <div class="col-4">
     <H2 id="nameKursi">Chair Thatty</H2>
     <p id="price">IDR.12.000.000</p>
-    <a href="/BotsTrap/shippingForm.html"><button type="button" id="rounded"  style="background-color: pink;"><b> <img src="../assets/img/cart-icon.png" alt=""> Add To Chart</b></button></a>
+    <router-link to="/FormShipping" >
+    <button type="button" id="rounded"  style="background-color: pink;"><b> <img src="../assets/img/cart-icon.png" alt=""> Add To Chart</b></button>
+    </router-link>  
     <br> <br>
     <hr>
     <br><br>
@@ -41,7 +43,8 @@
 </template>
 <script>
 export default {
-    name: 'GalleyView',
+    name : 'GalleyComponent',
+    props: ['imageLink']
 }
 </script>
 <style scoped>
