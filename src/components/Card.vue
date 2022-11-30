@@ -21,8 +21,12 @@ export default {
 <style scoped>
 #rounded{
     border-radius: 25px;
+<<<<<<< HEAD
     
         
+=======
+    background-color: aqua;
+>>>>>>> 6f757d8c84c36f95e6f890d98257993f30893d51
 }
 
 
