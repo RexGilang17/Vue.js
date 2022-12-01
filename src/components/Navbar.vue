@@ -1,6 +1,6 @@
 <template>
    
-        <nav class="navbar navbar-expand-lg navbar-light bg-white ">
+        <nav class="navbar navbar-expand-lg navbar-light  " id="nav">
        <div class="container-fluid px-5">
          <a class="navbar-brand" href="#"><img src="../assets/img/logo.png" alt=""></a>
          <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarText" aria-controls="navbarText" aria-expanded="false" aria-label="Toggle navigation">
@@ -34,6 +34,15 @@
     name: 'NavbarView',
   }
   </script>
+<style scoped>
+#nav{
+    background-color: #009EFF;
+}
+
+
+
+
+</style>
   
   <!-- Add "scoped" attribute to limit CSS to this component only -->
  

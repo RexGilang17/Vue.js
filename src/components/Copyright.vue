@@ -1,7 +1,7 @@
 <template lang="">
-    <div class="container container-fluid px-5 py-5"  >
+    <footer class="container container-fluid px-1 py-1"  >
         <p class="text-center">Copyright 2021 - All Lorem ipsum, dolor sit amet consectetur adipisicing. by BuildWith Gilang</p>
-     </div>
+    </footer>
 </template>
 <script>
 export default {

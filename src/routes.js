@@ -1,5 +1,5 @@
 import Detail from "./pages/Detail.vue";
-import FormShipping from "./pages/FormShipping";
+import Shipping from "./pages/Shipping.vue";
 import Order from "./pages/Order";
 export default [
     {
@@ -7,8 +7,8 @@ export default [
         component : Detail ,
     },
     {
-        path :"/FormShipping",
-        component : FormShipping ,
+        path :"/Shipping",
+        component : Shipping ,
     },
     {
         path :"/Order",

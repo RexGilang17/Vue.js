@@ -1,6 +1,11 @@
 <template lang="">
-    
+    <footer>
+    <div class="footerTitle text-center " id="nav">
+
         <div class="container container-fluid px-5 py-5">
+            <a class="navbar-brand" href="#">
+                <img src="../assets/img/logo.png" alt="">
+            </a>
             <div class="text-center">
             <img  src="/Asset/logo.png" alt="">
             </div>
@@ -33,12 +38,16 @@
                 </div>
               </div>
     </div>
+</div>
+</footer>
 </template>
 <script>
 export default {
     name:'FooterView',
 }
 </script>
-<style lang="">
-    
+<style scoped>
+    #nav{
+        background-color: #AAC4FF;
+    }
 </style>

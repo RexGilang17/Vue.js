@@ -1,7 +1,8 @@
 <template>
-    <div class="container container-fluid px-5 mt-5">
-        <div class="row ">
-<div class="col-2 d-flex flex-column justify-content-between">
+    <div class=" p-5 container-fluid " id="nav">
+        <div class="container container-fluid px-5 mt-5">
+            <div class="row " id="">
+                <div class="col-2 d-flex flex-column justify-content-between">
     <img id="view" src="../assets/img/side-1.png" alt="" style="width: 50%;">
     <img id="view" src="../assets/img/side-2.png" alt="" style="width: 50%;">
     <img id="view" src="../assets/img/side-3.png" alt="" style="width: 50%;">
@@ -17,7 +18,7 @@
 <div class="col-4">
     <H2 id="nameKursi">Chair Thatty</H2>
     <p id="price">IDR.12.000.000</p>
-    <router-link to="/FormShipping" >
+    <router-link to="/Shipping" >
     <button type="button" id="rounded"  style="background-color: pink;"><b> <img src="../assets/img/cart-icon.png" alt=""> Add To Chart</b></button>
     </router-link>  
     <br> <br>
@@ -40,6 +41,7 @@
 </div> 
 </div>
     </div>
+</div>
 </template>
 <script>
 export default {
@@ -53,6 +55,9 @@ export default {
 }
 #view{
     border-radius: 15px;
+}
+#nav{
+    background-color: #AAC4FF;
 }
 
 

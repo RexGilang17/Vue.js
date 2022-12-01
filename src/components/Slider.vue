@@ -1,5 +1,5 @@
 <template>
-    <div class="p-5 mt-5 bg-light" id="der" >
+    <div class="p-5 mt-5" id="nav" >
         <h3>Completed Your Room</h3>
         <h3>With What We Designed</h3>
         <div class="d-flex justify-content-between mt-4">
@@ -36,6 +36,8 @@ export default {
 </script>
 
 <style scoped>
-
+#nav{
+    background-color: #AAC4FF;
+}
 
 </style>
